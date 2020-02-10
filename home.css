@@ -1,0 +1,53 @@
+#jumbo{
+	background-color: 	#00008B;
+	font-family: New York;
+}
+.display-4{
+	color: blue;
+}
+.text{
+	font-size: 24px;
+	color: white;
+}
+#gambar{
+	width: 600px;
+	height: 335px;
+}
+#itu{
+	border: none;
+	
+}
+#tulisan{
+	background-color: #00008B;
+	font-family: New York;
+	color: white;
+	font-size: 24px;
+}
+#tekan{
+	background-color: blue;
+	font-family: New York;
+	color: white;
+}
+#gmbr2{
+	background-color: blue;
+	font-family: New York;
+	color: white;
+}
+#footer{
+	background-color: blue;
+	font-family: New York;
+}
+.navbar{
+	background-color: midnightblue;
+}
+.navbir{
+	background-color: midnightblue;
+}
+.navbar-brand{
+	margin-left: 50px;
+}
+.li{
+	list-style-type: none;
+	margin-right: 50px;
+	color: wheat;
+}
