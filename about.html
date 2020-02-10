@@ -1,16 +1,339 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Company</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		@media (min-width: 992px){
+			.navbar-barnd, .nav-link{
+       		 color: white !important;
+    		}
+    		.nav-link{
+        	text-transform: uppercase;
+        	margin-right: 30px;
+    		}
+
+    		.nav-link:hover::after {
+      		 content: '';
+			display: block;
+			border-bottom: 3px solid blue;
+			width: 50%;
+			margin: auto;
+			padding-bottom: 5px;
+			margin-bottom: -8px;
+			}
+			.jumbotron {
+				background-color: black;
+				background-size: cover;
+				height: 400px;
+				text-align: center;
+			}
+			.jumbotron .display-4{
+				color: white;
+				text-align: center;
+				margin-top: 150px;
+				font-weight: 200;
+			}
+			.container h1{
+				text-align: center;
+			}
+			.row{
+				margin-top: 5%;
+				text-align: center;
+			}
+			.content-gambar{
+				margin-top: 5%;
+				width: 100%px;
+			}
+			.content-gambar img{
+				width: 100%;
+				height: 500px;
+			}
+			.gambar1 img{
+				width: 100px;
+				height: 100px;
+			}
+			.gambar2 img{
+				width: 100px;
+				height: 100px;
+			}
+			.gambar3 img{
+				width: 100px;
+				height: 100px;
+			}
+			.gbr1{
+				margin-left: 0px;
+			}
+			.gbr2{
+				margin-left: 25px;
+			}
+			.gbr3{
+				margin-left: 50px;
+			}
+			.gbr4{
+				margin-left: 80px;
+			}
+			.logo{
+				color: white;
+			}
+			.jumbotron1{
+				margin-top: 5%;
+				height: 100px;
+			}
+			.text1{
+				text-size-adjust: 10px;
+			}
+			.jumbotron2 {
+				background-color:blue;
+				background-size: cover;
+				height: 300px;
+				text-align: center;
+			}
+			.jumbotron2 .display-5{
+				color: white;
+				text-align: center;
+				margin-top: 150px;
+			}
+			#footer{
+				background-color: blue;
+				font-family: New York;
+			}
+		}
+	</style>
 </head>
 <body>
+	<!-- Awal Navbar -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="logo">
+				<h2>Portfolio</h2>
+			  </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Blog</a>
+					<a class="nav-item nav-link" href="#">Pages</a>
+					<a class="nav-item nav-link" href="#">Contac</a>
+                </div>
+            </div>
+        </div>
+      </nav>
+	  <!-- Akhir Navbar -->
 
+	  <!---Awal Jumbotron-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">About Us</h1>
+        </div>
+	  </div><br><br><br><br>
+	  <!--Akhir jumbotron-->
 
+	  <!--Isi project1-->
+	  <div class="container">
+		  <h1> Consumer and trends research capabilities we desigen for tomorrow costumer in tomorrow's markets</h1>
+		  <div class="row">
+			  <div class="col-sm-6">
+				  <h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi possimus qui voluptatum officia, nobis officiis quod, voluptate ut consequuntur blanditiis nostrum cum. Saepe molestiae corrupti libero labore veniam laborum mollitia!</h5>
+			  </div>
+			  <div class="col-sm-6">
+				  <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+			  </div>
+		  </div>
+		  <div class="content-gambar">
+			  <img src="img/pexels-photo-1391371.jpeg" class="img-fluid" style="" alt="">
+		  </div>
+	  </div>
+	  <!--akhir isi project1-->
 
+	   <!--Isi project2-->
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-sm-4">
+				  <div class="gambar1">
+					  <img src="img/cropped-Data-Cube-Systems-Cube-logo-color.png" class="img-fluid" alt="">
+					  <br> <br>
+					  <h3>3D Modeling</h3><br>
+					  <p>A wonderful serenty has taken to the possessions of my entire soul network infrastructure, inculding consolidations of establidhed network desigend and.</p>
+				  </div>
+			  </div>
+			  <div class="col-sm-4">
+				  <div class="gambar2">
+					  <img src="img/Ui_Ux_Design-512.png" class="img-fluid" alt="">
+					  <br> <br>
+					  <h3>UI/IX Design</h3><br>
+					  <p>A wonderful serenty has taken to the possessions of my entire soul network infrastructure, inculding consolidations of establidhed network desigend and</p>
+				  </div>
+			  </div>
+			  <div class="col sm-4">
+				  <div class="gambar3">
+					  <img src="img/arsi.png"  class="img-fluid" alt="">
+					  <br> <br>
+					  <h3>Architectural Design</h3><br>
+					  <p>A wonderful serenty has taken to the possessions of my entire soul network infrastructure, inculding consolidations of establidhed network desigend and</p>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+	  <!--akhir isi project2-->
 
-<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="bootstrap.min.js"></script>
-<script type="text/javascript" src="popper.min.js"></script>
+	  <!--Isi project3-->
+	  <div class="container">
+		  <br><br>
+		  <h1>Creative Peoples</h1>
+		  <div class="row">
+			  <div class="col-sm-3">
+				  <div class="gbr1">
+					<a href="#" class="pop">
+						<img src="img/gbr5.jpg" style="width: 300px; height: 364px;" class="img-fluid">
+					</a>
+				  </div>
+			  </div>
+			  <div class="col-sm-3">
+				  <div class="gbr2"><br><br>
+					<a href="#" class="pop">
+						<img src="img/img2.jpg" style="width: 300px; height: 364px;"class="img-fluid">
+					</a>
+				  </div>
+			  </div>
+			  <div class="col-sm-3">
+				  <div class="gbr3">
+					<a href="#" class="pop">
+						<img src="img/img3.jpg" style="width: 300px; height: 364px;" class="img-fluid">
+					</a>
+				  </div>
+			  </div>
+			  <div class="col-sm-3">
+				  <div class="gbr4"><br><br>
+					<a href="#" class="pop">
+						<img src="img/img4.jpg" style="width: 300px; height: 364px;" class="img-fluid"">
+					</a> 
+				  </div>
+			  </div>
+			  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+					  <div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<img src="" class="imagepreview" style="width: 100%;">
+					  </div>
+					</div>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+	<!--akhir isi project3-->
+
+	<!--Isi project4-->
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					  <div class="jumbotron1 text-center" id="image1">
+						<img src="img/images1.jpg" class="img-fluid rounded-circle" style="width: 110px; height: 100px;">
+					  </div>
+					  <br>
+					  <h5 class="text1">Innovative brewing methods and our coffe is sourced form various parts of the globe and are roasted to perfactions</h5>
+					  <br><br>
+					  <h5 style="color: blue;">Alexander</h5>
+					  <p>Mesica Chouhan</p>
+				  </div>
+				  <div class="carousel-item">
+					<div class="jumbotron1 text-center" id="image2">
+						<img src="img/images2.jpg" class="img-fluid rounded-circle" style="width: 110px; height: 100px;">
+					  </div>
+					  <br>
+					  <h5 class="text1">Innovative brewing methods and our coffe is <br>sourced form various parts of the globe and are roasted to perfactions</h5>
+					  <br><br>
+					  <h5 style="color: blue;">William</h5>
+					  <p>Mesica Chouhan</p>
+				  </div>
+				  
+				  <div class="carousel-item">
+					<div class="jumbotron1 text-center" id="image2">
+						<<img src="img/images3.jpg" class="img-fluid rounded-circle" style="width: 110px; height: 100px;">
+					  </div>
+					  <br>
+					  <h5 class="text1">Innovative brewing methods and our coffe is <br>sourced form various parts of the globe and are roasted to perfactions</h5>
+					  <br><br>
+					  <h5 style="color: blue;">Mesica Chouhan</h5>
+					  <p>Mesica Chouhan</p>
+				  </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			  </div>
+		</div>
+	</div>
+	<!--akhir isi project4-->
+
+	<div class="jumbotron2 jumbotron-fluid">
+		<div class="container"><br>
+		  <h1 class="display-5">Let's start your project with us</h1>
+		  <button type="button" class="btn btn-primary">Primary</button>
+		</div>
+	</div>
+
+	<!------>
+	<div class="row" id="footer">
+		<div class="col-sm-3 text-white">
+			<h5>PORTOFOLIO</h5>
+		</div>
+		<div class="col-sm-3 text-white">
+			<h5>Services</h5>
+			<p>Web Design</p>
+			<p>3D Modeling</p>
+			<p>Architectural Design</p>
+		</div>
+		<div class="col-sm-3 text-white">
+			<h5>Useful Links</h5>
+			<p>Work</p>
+			<p>About</p>
+			<p>Services</p>
+			<p>Contact</p>
+		</div>
+		<div class="col-sm-3 text-white">
+			<h5>Follow Us</h5>
+			<p>Dribble</p>
+			<p>Behance</p>
+			<p>Instagram</p>
+			<p>Facebook</p>
+		</div>
+	</div>
+	<!------->
+	
+		
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+				$(function() {
+					$('.pop').on('click', function() {
+						$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+						$('#imagemodal').modal('show');   
+					});		
+			});
+		});
+	</script>
+    
 </body>
 </html>
