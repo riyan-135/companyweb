@@ -1,0 +1,128 @@
+#header {
+    background-color: black;
+    height: 400px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+#blog {
+    margin-top: 200px;
+    color: white;
+}
+
+.card {
+    margin: 20px;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    background-color: royalblue;
+    height: 50px;
+    width: 50px;
+    top: 370px;
+}
+
+#photo {
+    height: 400px;
+}
+
+#kolom1 {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 90%;
+}
+
+#kolom2 {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.cari {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 150px;
+}
+
+.category {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 380px;
+    margin-bottom: 40px;
+}
+
+.recent {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 430px;
+    margin-bottom: 40px;
+}
+
+#p1 {
+    padding-left: 20px;
+}
+
+#photo1 {
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+    float: left;
+}
+
+.info {
+    font-size: small;
+    margin-top: 30px;
+}
+
+.tag {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+.feeds {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+#photo2 {
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+}
+
+.news {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 40px;
+}
+
+.display-1{
+    font-weight: bold;
+    color: wheat;
+}
+.navbar{
+    background-color: midnightblue;
+}
+.navbir{
+    background-color: midnightblue;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.li{
+    list-style-type: none;
+    margin-right: 50px;
+    color: wheat;
+}
+
+#footer{
+	background-color: blue;
+	font-family: New York;
+}
